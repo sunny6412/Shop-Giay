@@ -42,7 +42,7 @@
                 
 
                 <!--recommended_items-->
-               @include('fontend.components.recommend_product')
+               {{-- @include('fontend.components.recommend_product') --}}
                 
                 <!--/recommended_items-->
                 
