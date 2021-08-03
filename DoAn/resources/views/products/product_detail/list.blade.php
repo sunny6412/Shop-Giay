@@ -53,8 +53,9 @@
                 </div>
                
                 <!--/product-information-->
-
+                
                 <!--/product-details-->
+                @include('fontend.components.recommend_product');
             </div>
         </div>
 </section>

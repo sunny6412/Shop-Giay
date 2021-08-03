@@ -1,11 +1,18 @@
 <div class="recommended_items">
-    <h2 class="title text-center">Sản phẩm đề xuất</h2>
+    <h2 class="title text-center">Sản phẩm đề xuất </h2>
     
     <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             	
+                <?php 
+                    // dd($ProductDetail->category_id);
+                    // $q = $Prod
+                    $sql = DB::table('products')->select('id','price','name','feature_image_path')->where('category_id', $ProductDetail->category_id)->get();
+                    // dd($sql);
+                ?>
 
-                @foreach ($productRecommend as $keyRecommend => $productRecommendItem)
+                @foreach ($sql as $keyRecommend => $productRecommendItem)
+                        
                 @if ($keyRecommend % 3 == 0)
                      <div class="item {{$keyRecommend == 0 ? 'active' : ''}}">
                 @endif
