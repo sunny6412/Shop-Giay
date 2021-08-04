@@ -7,8 +7,11 @@ Project semester 2 - FPT Aptech Teach used: PHP - Laravel - HTML/CSS/JS - Bootst
 5) Bùi Nguyễn Duy Phương- 1270653 Dev
 
 Documetation included on the main folder:
+
 Intallation guide Database source : 'GitHub Desktop
 .sql'
+
+
 Documentation : 'Document-PRJ2-Group2-_Main-1
 .pdf'
 
