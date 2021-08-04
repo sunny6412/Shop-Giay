@@ -1,4 +1,4 @@
-MỌT PHIM
+TPHN SNEAKER
 Project semester 2 - FPT Aptech Teach used: PHP - Laravel - HTML/CSS/JS - Bootstrap Team members include:
 1) Trần Đặng Ngọc Nguyên - 1266499 - Dev
 2) Nguyễn Công Hậu - 1273010 – project lead
